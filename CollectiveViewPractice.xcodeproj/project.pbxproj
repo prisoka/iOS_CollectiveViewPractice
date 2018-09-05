@@ -14,6 +14,7 @@
 		266EA8562140817A00F3ED3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 266EA8542140817A00F3ED3F /* LaunchScreen.storyboard */; };
 		266EA8612140817A00F3ED3F /* CollectiveViewPracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266EA8602140817A00F3ED3F /* CollectiveViewPracticeTests.swift */; };
 		266EA86C2140817A00F3ED3F /* CollectiveViewPracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266EA86B2140817A00F3ED3F /* CollectiveViewPracticeUITests.swift */; };
+		266EA87A2140825400F3ED3F /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266EA8792140825400F3ED3F /* CollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		266EA8672140817A00F3ED3F /* CollectiveViewPracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CollectiveViewPracticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		266EA86B2140817A00F3ED3F /* CollectiveViewPracticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectiveViewPracticeUITests.swift; sourceTree = "<group>"; };
 		266EA86D2140817A00F3ED3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		266EA8792140825400F3ED3F /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				266EA8522140817A00F3ED3F /* Assets.xcassets */,
 				266EA8542140817A00F3ED3F /* LaunchScreen.storyboard */,
 				266EA8572140817A00F3ED3F /* Info.plist */,
+				266EA8792140825400F3ED3F /* CollectionViewCell.swift */,
 			);
 			path = CollectiveViewPractice;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			files = (
 				266EA84E2140817800F3ED3F /* ViewController.swift in Sources */,
 				266EA84C2140817800F3ED3F /* AppDelegate.swift in Sources */,
+				266EA87A2140825400F3ED3F /* CollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
