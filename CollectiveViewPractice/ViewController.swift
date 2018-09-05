@@ -15,11 +15,11 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
     
     let ages = ["6", "5", "4", "2"]
     
-    let sizes = ["large", "medium", "medium", "11:11 AM"]
+    let sizes = ["large", "medium", "medium", "small"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        print("requests view controller did load")
+        print("view controller did load")
     }
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
@@ -27,8 +27,9 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell: CollectionViewCell = collectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath) as! CollectionViewCell
         
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath) as! CollectionViewCell
+            
         cell.dogPhoto.image = dogPhoto[indexPath.row]
         cell.dogName.text = dogName[indexPath.row]
         cell.age.text = ages[indexPath.row]
